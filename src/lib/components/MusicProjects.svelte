@@ -34,7 +34,7 @@
 						<Icon data={heart} />
 						<div class="card-info-title">
 							<h3>Latest Album</h3>
-							<SomeText>Listen to my album</SomeText>
+							<SomeText>最新音乐</SomeText>
 						</div>
 					</div>
 				</div>
@@ -50,7 +50,7 @@
 						<Icon data={handshakeO} />
 						<div class="card-info-title">
 							<h3>Colaboration Album</h3>
-							<SomeText>Life Under a Cold Roof</SomeText>
+							<SomeText>合作专辑</SomeText>
 						</div>
 					</div>
 				</div>
@@ -66,7 +66,7 @@
 						<Icon data={fileAudioO} />
 						<div class="card-info-title">
 							<h3>Mixed Project</h3>
-							<SomeText>Latest Mixing album</SomeText>
+							<SomeText>混音作品</SomeText>
 						</div>
 					</div>
 				</div>
@@ -82,7 +82,7 @@
 						<Icon data={tags} />
 						<div class="card-info-title">
 							<h3>Music in Adverts</h3>
-							<SomeText>Multimedia Projects</SomeText>
+							<SomeText>广告配乐</SomeText>
 						</div>
 					</div>
 				</div>
@@ -98,7 +98,7 @@
 						<Icon data={book} />
 						<div class="card-info-title">
 							<h3>Music Tutorial</h3>
-							<SomeText>Learn How I mix music</SomeText>
+							<SomeText>音乐教程</SomeText>
 						</div>
 					</div>
 				</div>
@@ -114,7 +114,7 @@
 						<Icon data={assistiveListeningSystems} />
 						<div class="card-info-title">
 							<h3>My Playlist</h3>
-							<SomeText>Listen to my favorites</SomeText>
+							<SomeText>最近歌单</SomeText>
 						</div>
 					</div>
 				</div>
@@ -125,7 +125,7 @@
 
 <style>
 	:root {
-		--card-color: rgba(30, 30, 30, 0.1);
+		--card-color: #44403c;
 	}
 
 	main {
@@ -151,7 +151,7 @@
 		display: flex;
 		flex-direction: column;
 		position: relative;
-		background-color: rgba(255, 255, 255, 0.2);
+		background-color: rgb(255, 255, 255);
 		border-radius: 5px;
 		cursor: pointer;
 		height: 300px;
@@ -178,7 +178,7 @@
 	.card::before {
 		background: radial-gradient(
 			800px circle at var(--mouse-x) var(--mouse-y),
-			rgba(0, 255, 255, 0.5),
+			rgba(209, 213, 219, 0.253),
 			transparent 40%
 		);
 		z-index: 3;
@@ -187,7 +187,7 @@
 	.card::after {
 		background: radial-gradient(
 			600px circle at var(--mouse-x) var(--mouse-y),
-			rgba(221, 95, 219, 0.3),
+			#a21caf,
 			transparent 40%
 		);
 		z-index: 1;
@@ -200,7 +200,7 @@
 		flex-direction: column;
 		flex-grow: 1;
 		inset: 1px;
-		padding: 10px;
+		padding: 1px;
 		position: absolute;
 		z-index: 2;
 	}
