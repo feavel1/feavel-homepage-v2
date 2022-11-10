@@ -26,8 +26,8 @@
 	<div id="cards" class="text-xl">
 		<div class="card">
 			<div class="card-content">
-				<div class="card-image">
-					<Icon data={heart} scale={5} class="stroke-cyan-500 fill-blue-500 stroke-6 opacity-50" />
+				<div class="card-image ">
+					<Icon data={heart} scale={5} class="bg-slate-900 rounded-lg p-4 stroke-6 opacity-50" />
 				</div>
 				<div class="card-info-wrapper">
 					<div class="card-info">

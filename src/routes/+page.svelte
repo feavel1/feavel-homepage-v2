@@ -8,7 +8,6 @@
 	import SomeAlienProject from '../lib/components/SomeAlienProject.svelte';
 	import Phylosophy from '../lib/components/Phylosophy.svelte';
 	import MusicProjects from '../lib/components/MusicProjects.svelte';
-	import VideoProjects from '../lib/components/VideoProjects.svelte';
 </script>
 
 <title>FEAVEL - HOME</title>
