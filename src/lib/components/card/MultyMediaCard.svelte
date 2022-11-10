@@ -19,11 +19,21 @@
 		<slot />
 	</div>
 
-	<div class="mt-2 text-3xl font-light text-center ">
+	<div class="mt-2 text-3xl font-light text-center">
+		<div>
+			<a
+				class="decoration-sky-500 hover:decoration-sky-700 underline dark:group-hover:text-sky-300 duration-100"
+				href="/src/public/baby-feavel-home-1.gif"
+				download="baby-feavel-home-1.gif"
+			>
+				Download PDF in English
+			</a>
+		</div>
+
 		<a
 			class="decoration-sky-500 hover:decoration-sky-700 underline dark:group-hover:text-pink-300 duration-100"
-			href="/src/public/baby-feavel-home-1.gif"
-			download="baby-feavel-home-1.gif">Download PDF in English</a
+			href="https://feavel.notion.site/Music-in-Multimedia-Research-9c2cd5dd49b94adb9b93004f7739c449"
+			>Citations - 注解与原文</a
 		>
 	</div>
 </div>

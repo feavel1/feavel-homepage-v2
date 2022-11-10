@@ -8,7 +8,7 @@
 	import SomeAlienProject from '../lib/components/SomeAlienProject.svelte';
 	import Phylosophy from '../lib/components/Phylosophy.svelte';
 	import MusicProjects from '../lib/components/MusicProjects.svelte';
-	import VideoProjects from '../lib/components/VideoProject1.svelte';
+	import VideoProjects from '../lib/components/VideoProjects.svelte';
 </script>
 
 <title>FEAVEL - HOME</title>
@@ -49,7 +49,7 @@
 	</Section>
 
 	<Section color="dark:bg-neutral-700">
-		⚛︎ 音乐作品 ⚛︎
+		☭ 音乐作品 ☭
 		<p class="italic text-lg">Music Production and Mixing 📼</p>
 		<MusicProjects />
 	</Section>

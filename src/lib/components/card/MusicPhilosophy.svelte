@@ -19,11 +19,15 @@
 		<slot />
 	</div>
 
-	<div class="mt-2 text-3xl font-light text-center ">
-		<a
-			class="decoration-sky-500 hover:decoration-sky-700 underline dark:group-hover:text-pink-300 duration-100"
-			href="/src/public/baby-feavel-home-1.gif"
-			download="baby-feavel-home-1.gif">Download PDF in English</a
-		>
+	<div class="mt-2 text-3xl font-light text-center">
+		<div>
+			<a
+				class="decoration-sky-500 hover:decoration-sky-700 underline dark:group-hover:text-sky-300 duration-100"
+				href="/src/public/baby-feavel-home-1.gif"
+				download="baby-feavel-home-1.gif"
+			>
+				Read the article
+			</a>
+		</div>
 	</div>
 </div>

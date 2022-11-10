@@ -31,7 +31,7 @@
 				</div>
 				<div class="card-info-wrapper">
 					<div class="card-info">
-						<Icon data={heart} />
+						<Icon data={heart} class="" />
 						<div class="card-info-title">
 							<h3>Latest Album</h3>
 							<SomeText>最新音乐</SomeText>
@@ -187,7 +187,7 @@
 	.card::after {
 		background: radial-gradient(
 			600px circle at var(--mouse-x) var(--mouse-y),
-			#a21caf,
+			#d324e3,
 			transparent 40%
 		);
 		z-index: 1;
@@ -208,9 +208,6 @@
 	/* -- ↓ ↓ ↓ extra card content styles ↓ ↓ ↓ -- */
 
 	h3 {
-		/* color: rgb(240, 240, 240); */
-		/* font-family: 'Rubik', sans-serif; */
-		/* font-weight: 100; */
 		font-size: 1px;
 		margin: 0px;
 	}
@@ -223,17 +220,17 @@
 		overflow: hidden;
 	}
 
-	.card-image > i {
+	/* .card-image > i {
 		font-size: 6em;
 		opacity: 0.25;
-	}
+	} */
 
 	.card-info-wrapper {
 		align-items: center;
 		display: flex;
 		flex-grow: 1;
 		justify-content: flex-start;
-		padding: 0px 20px;
+		padding: 30px 0px 0px 20px;
 	}
 
 	.card-info {
@@ -242,22 +239,22 @@
 		gap: 10px;
 	}
 
-	.card-info > i {
+	/* .card-info > i {
 		font-size: 1em;
 		height: 20px;
 		line-height: 20px;
-	}
+	} */
 
 	.card-info-title > h3 {
 		font-size: 1.1em;
-		line-height: 20px;
+		line-height: 15px;
 	}
 
-	.card-info-title > h4 {
-		/* color: rgba(255, 255, 255, 0.6); */
+	/* .card-info-title > h4 {
+		color: rgba(255, 255, 255, 0.6);
 		font-size: 0.85em;
 		margin-top: 8px;
-	}
+	} */
 
 	/* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
 
@@ -285,28 +282,29 @@
 
 		.card-image {
 			height: 80px;
+			margin-top: 20px;
 		}
 
-		.card-image > i {
+		/* .card-image > i {
 			font-size: 3em;
-		}
+		} */
 
 		.card-info-wrapper {
 			padding: 0px 10px;
 		}
 
-		.card-info > i {
+		/* .card-info > i {
 			font-size: 0.8em;
-		}
+		} */
 
 		.card-info-title > h3 {
 			font-size: 0.9em;
 		}
 
-		.card-info-title > h4 {
+		/* .card-info-title > h4 {
 			font-size: 0.8em;
 			margin-top: 4px;
-		}
+		} */
 	}
 
 	@media (max-width: 500px) {
