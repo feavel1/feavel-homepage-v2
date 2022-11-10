@@ -27,7 +27,7 @@
 		<div class="card">
 			<div class="card-content">
 				<div class="card-image ">
-					<Icon data={heart} scale={5} class="bg-slate-900 rounded-lg p-4 stroke-6 opacity-50" />
+					<Icon data={heart} scale={5} class="bg-slate-900 rounded-lg p-4 opacity-50" />
 				</div>
 				<div class="card-info-wrapper">
 					<div class="card-info">
@@ -43,7 +43,7 @@
 		<div class="card">
 			<div class="card-content">
 				<div class="card-image">
-					<Icon data={handshakeO} scale={5} class=" opacity-50" />
+					<Icon data={handshakeO} scale={5} class="bg-slate-900 rounded-lg p-4  opacity-50" />
 				</div>
 				<div class="card-info-wrapper">
 					<div class="card-info">
@@ -59,7 +59,7 @@
 		<div class="card">
 			<div class="card-content">
 				<div class="card-image ">
-					<Icon data={fileAudioO} scale={5} class="opacity-50" />
+					<Icon data={fileAudioO} scale={5} class="bg-slate-900 rounded-lg p-4 opacity-50" />
 				</div>
 				<div class="card-info-wrapper">
 					<div class="card-info">
@@ -75,7 +75,7 @@
 		<div class="card">
 			<div class="card-content">
 				<div class="card-image">
-					<Icon data={tags} scale={5} class=" opacity-50" />
+					<Icon data={tags} scale={5} class=" bg-slate-900 rounded-lg p-4 opacity-50" />
 				</div>
 				<div class="card-info-wrapper">
 					<div class="card-info">
@@ -91,7 +91,7 @@
 		<div class="card">
 			<div class="card-content">
 				<div class="card-image">
-					<Icon data={book} scale={5} class="opacity-50" />
+					<Icon data={book} scale={5} class="bg-slate-900 rounded-lg p-4 opacity-50" />
 				</div>
 				<div class="card-info-wrapper">
 					<div class="card-info">
@@ -107,7 +107,11 @@
 		<div class="card">
 			<div class="card-content">
 				<div class="card-image">
-					<Icon data={assistiveListeningSystems} scale={5} class="opacity-50" />
+					<Icon
+						data={assistiveListeningSystems}
+						scale={5}
+						class="bg-slate-900 rounded-lg p-4 opacity-50"
+					/>
 				</div>
 				<div class="card-info-wrapper">
 					<div class="card-info">
@@ -208,7 +212,7 @@
 	/* -- ↓ ↓ ↓ extra card content styles ↓ ↓ ↓ -- */
 
 	h3 {
-		font-size: 1px;
+		/* font-size: 1px; */
 		margin: 0px;
 	}
 
