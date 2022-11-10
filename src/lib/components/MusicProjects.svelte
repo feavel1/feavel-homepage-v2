@@ -214,6 +214,7 @@
 	h3 {
 		/* font-size: 1px; */
 		margin: 0px;
+		font-weight: 500;
 	}
 
 	.card-image {
