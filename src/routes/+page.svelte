@@ -48,17 +48,17 @@
 		<Phylosophy />
 	</Section>
 
-	<Section color="dark:bg-neutral-700">
+	<Section color="bg-neutral-700 text-white">
 		☭ 音乐作品 ☭
 		<p class="italic text-lg">Music Production and Mixing 📼</p>
 		<MusicProjects />
 	</Section>
 
-	<Section color="dark:bg-neutral-600">
+	<!-- <Section color="dark:bg-neutral-600">
 		影视作品
 		<p class="italic text-lg">Film making🎥</p>
 		<VideoProjects />
-	</Section>
+	</Section> -->
 
 	<Section color="dark:bg-slae-700 flex flex-col justify-between">
 		<div>

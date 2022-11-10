@@ -22,7 +22,7 @@
 	});
 </script>
 
-<main class="h-auto text-black dark:text-white mt-12 font-sans ">
+<main class="h-autotext-white mt-12 font-sans ">
 	<div id="cards" class="text-xl">
 		<div class="card">
 			<div class="card-content">

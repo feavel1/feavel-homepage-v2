@@ -27,7 +27,7 @@
 	}
 </script>
 
-<nav class="fixed flex justify-center w-full py-2 text-sm  ">
+<nav class="fixed flex justify-center w-full py-2 text-sm z-50 ">
 	<a class="mx-5 dark:hover:text-gray-700 hover:text-slate-500 p-2.5 rounded-lg" href="about"
 		>关于</a
 	>
