@@ -19,7 +19,7 @@
 		<AnimatedLines />
 	</div>
 
-	<Section color="dark:bg-slate-600">
+	<Section SectionId="" color="dark:bg-slate-600 ">
 		<p class="text-xs italic text-gray-500 py-2">
 			Love means giving something you don't have to someone who doesn't want it. - Lacan
 		</p>
@@ -28,7 +28,7 @@
 		<WorksGrid />
 	</Section>
 
-	<Section color="dark:bg-slate-700">
+	<Section SectionId="programing-card" color="dark:bg-slate-700">
 		<p class="text-xs italic text-gray-500 py-2">I know that I know nothing - Socrat</p>
 		⪀ 编程项目 ⩿
 		<p class="italic text-lg">Coding🧑🏼‍💻</p>
@@ -37,7 +37,7 @@
 		<SomeAlienProject />
 	</Section>
 
-	<Section color="dark:bg-slate-800 ">
+	<Section SectionId="philosophy-card" color="dark:bg-slate-800">
 		<div>
 			<p class="text-xs italic text-gray-500 py-2">
 				Love means giving something you don't have to someone who doesn't want it. - Lacan
@@ -48,7 +48,7 @@
 		<Phylosophy />
 	</Section>
 
-	<Section color="bg-neutral-700 text-white">
+	<Section SectionId="music-card" color="dark:bg-neutral-700 ">
 		☭ 音乐作品 ☭
 		<p class="italic text-lg">Music Production and Mixing 📼</p>
 		<MusicProjects />
@@ -60,7 +60,7 @@
 		<VideoProjects />
 	</Section> -->
 
-	<Section color="dark:bg-slae-700 flex flex-col justify-between">
+	<Section SectionId="contact-card" color="dark:bg-slae-700 flex flex-col justify-between">
 		<div>
 			<div class="text-right my-5">
 				<p class="text-xs italic text-gray-500 py-2">

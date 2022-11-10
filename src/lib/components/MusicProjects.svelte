@@ -22,7 +22,7 @@
 	});
 </script>
 
-<main class="h-autotext-white mt-12 font-sans ">
+<main class="h-autotext-white mt-12 font-sans text-white ">
 	<div id="cards" class="text-xl">
 		<div class="card">
 			<div class="card-content">
@@ -125,7 +125,7 @@
 
 <style>
 	:root {
-		--card-color: #44403c;
+		--card-color: #525252;
 	}
 
 	main {
@@ -151,7 +151,7 @@
 		display: flex;
 		flex-direction: column;
 		position: relative;
-		background-color: rgb(255, 255, 255);
+		background-color: rgba(255, 255, 255, 0.2);
 		border-radius: 5px;
 		cursor: pointer;
 		height: 300px;
@@ -178,7 +178,7 @@
 	.card::before {
 		background: radial-gradient(
 			800px circle at var(--mouse-x) var(--mouse-y),
-			rgba(209, 213, 219, 0.253),
+			rgba(209, 213, 219, 0.4),
 			transparent 40%
 		);
 		z-index: 3;
@@ -187,7 +187,7 @@
 	.card::after {
 		background: radial-gradient(
 			600px circle at var(--mouse-x) var(--mouse-y),
-			#d324e3,
+			#0ea5e9,
 			transparent 40%
 		);
 		z-index: 1;

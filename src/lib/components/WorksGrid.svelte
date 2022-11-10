@@ -18,7 +18,7 @@
 	<!-- PSYCHOANALYSIS  -->
 	<InView let:isVisible>
 		<GridCard props="transition-colors {isVisible ? 'text-red-400' : ''} duration-500">
-			<div class="">
+			<a href="#philosophy-card">
 				<h1 class="md:text-3xl text-lg font-thin">Time in psychoanalysis</h1>
 				<div class="">
 					{#if isVisible}
@@ -35,14 +35,14 @@
 						</p>
 					{/if}
 				</div>
-			</div>
+			</a>
 		</GridCard>
 	</InView>
 
 	<!-- FCMA  -->
 	<InView let:isVisible>
 		<GridCard props="transition {isVisible ? 'text-sky-500' : ''} duration-500">
-			<div class="max-w-md">
+			<a href="https://www.craft.do/s/3ThLjDJJ5vCFsF" target="blank">
 				<h1 class="md:text-3xl text-lg font-thin">FCMA</h1>
 				<div class="">
 					{#if isVisible}
@@ -57,14 +57,14 @@
 						<p in:typewriter class="text-sm italic">teaches film making, music, and many more~</p>
 					{/if}
 				</div>
-			</div>
+			</a>
 		</GridCard>
 	</InView>
 
 	<!-- MUSIC  -->
 	<InView let:isVisible>
 		<GridCard props="transition {isVisible ? 'text-violet-400' : ''} duration-500">
-			<div class="max-w-md">
+			<a href="#music-card">
 				<h1 class="md:text-3xl text-lg font-thin">Music Production and Mixing</h1>
 				<div class="">
 					{#if isVisible}
@@ -81,14 +81,14 @@
 						</p>
 					{/if}
 				</div>
-			</div>
+			</a>
 		</GridCard>
 	</InView>
 
 	<!-- CODING -->
 	<InView let:isVisible>
 		<GridCard props="transition {isVisible ? 'text-emerald-400' : ''} duration-500">
-			<div class="max-w-md">
+			<a href="#programing-card">
 				<h1 class="md:text-3xl text-lg font-thin">Web Design and Programing</h1>
 				<div class="">
 					{#if isVisible}
@@ -105,14 +105,14 @@
 						</p>
 					{/if}
 				</div>
-			</div>
+			</a>
 		</GridCard>
 	</InView>
 
-	<!-- CODING -->
+	<!-- CONTACT -->
 	<InView let:isVisible>
 		<GridCard props="transition {isVisible ? 'text-amber-400' : ''} duration-500">
-			<div class="max-w-md">
+			<a href="#contact-card">
 				<h1 class="md:text-3xl text-lg font-thin">Good Friend</h1>
 				<div class="">
 					{#if isVisible}
@@ -129,7 +129,7 @@
 						</p>
 					{/if}
 				</div>
-			</div>
+			</a>
 		</GridCard>
 	</InView>
 

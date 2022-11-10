@@ -33,7 +33,9 @@
 		<a
 			class="decoration-sky-500 hover:decoration-sky-700 underline dark:group-hover:text-pink-300 duration-100"
 			href="https://feavel.notion.site/Music-in-Multimedia-Research-9c2cd5dd49b94adb9b93004f7739c449"
-			>Citations - 注解与原文</a
+			target="blank"
 		>
+			Citations - 注解
+		</a>
 	</div>
 </div>
