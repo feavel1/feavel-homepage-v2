@@ -17,7 +17,7 @@
 <div class="max-w-6xl px-4 flex flex-col content-center justify-center mx-auto">
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-3 my-5 md:mx-4">
 		<!-- PSYCHOANALYSIS  -->
-		<a href="#philosophy-card">
+		<a href="#philosophy-card" class="drop-shadow-2xl">
 			<InView let:isVisible>
 				<GridCard props="transition-colors {isVisible ? 'text-red-400' : ''} duration-500">
 					<h1 class="md:text-3xl text-lg font-thin">Time in psychoanalysis</h1>
@@ -41,7 +41,7 @@
 		</a>
 
 		<!-- FCMA  -->
-		<a href="https://www.craft.do/s/3ThLjDJJ5vCFsF" target="blank">
+		<a href="https://www.craft.do/s/3ThLjDJJ5vCFsF" target="blank" class="drop-shadow-2xl">
 			<InView let:isVisible>
 				<GridCard props="transition {isVisible ? 'text-sky-500' : ''} duration-500">
 					<h1 class="md:text-3xl text-lg font-thin">FCMA</h1>
@@ -63,7 +63,7 @@
 		</a>
 
 		<!-- MUSIC  -->
-		<a href="#music-card">
+		<a href="#music-card" class="drop-shadow-2xl">
 			<InView let:isVisible>
 				<GridCard props="transition {isVisible ? 'text-violet-400' : ''} duration-500">
 					<h1 class="md:text-3xl text-lg font-thin">Music Production and Mixing</h1>
@@ -87,7 +87,7 @@
 		</a>
 
 		<!-- CODING -->
-		<a href="#programing-card">
+		<a href="#programing-card" class="drop-shadow-2xl">
 			<InView let:isVisible>
 				<GridCard props="transition {isVisible ? 'text-emerald-400' : ''} duration-500">
 					<h1 class="md:text-3xl text-lg font-thin">Web Design and Programing</h1>
@@ -111,7 +111,7 @@
 		</a>
 
 		<!-- CONTACT -->
-		<a href="#contact-card">
+		<a href="#contact-card" class="drop-shadow-2xl">
 			<InView let:isVisible>
 				<GridCard props="transition {isVisible ? 'text-amber-400' : ''} duration-500">
 					<h1 class="md:text-3xl text-lg font-thin">Good Friend</h1>
@@ -135,10 +135,11 @@
 		</a>
 
 		<!-- ABOUT -->
-		<InView let:isVisible>
-			<GridCard props="transition {isVisible ? 'text-pink-400' : ''} duration-500">
-				<div class="max-w-md">
+		<a href="#contact-card" class="drop-shadow-2xl">
+			<InView let:isVisible>
+				<GridCard props="transition {isVisible ? 'text-pink-400' : ''} duration-500">
 					<h1 class="md:text-3xl text-lg font-thin">Freelance</h1>
+
 					<div class="">
 						{#if isVisible}
 							<p in:typewriter class="text-3xl font-black">独立、自由</p>
@@ -154,8 +155,8 @@
 							</p>
 						{/if}
 					</div>
-				</div>
-			</GridCard>
-		</InView>
+				</GridCard>
+			</InView>
+		</a>
 	</div>
 </div>

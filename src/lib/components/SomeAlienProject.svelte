@@ -75,7 +75,8 @@
 		>
 			<a
 				type="button"
-				href="/"
+				href="https://ali3n-babi3s.vercel.app"
+				target="blank"
 				class="bg-stone-500 text-white text-sm leading-6 font-medium py-2 px-3 rounded-md transition hover:bg-pink-400 duration-200 font-mono"
 				>Ali3n Babi3s Web App | 进入外星世界</a
 			>
@@ -83,10 +84,8 @@
 		<p
 			class="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400 font-thin italic indent-8"
 		>
-			This sunny and spacious room is for those traveling light and looking for a comfy and cosy
-			place to lay their head for a night or two. This beach house sits in a vibrant neighborhood
-			littered with cafes, pubs, restaurants and supermarkets and is close to all the major
-			attractions such as Edinburgh Castle and Arthur's Seat.
+			全球最好的化妆师糖王大人ALI3N
+			BABI3S官网。可以在这里看到她的化妆作品和联系方式。有兴趣商业合作的都可以联系她。
 		</p>
 	</div>
 </main>

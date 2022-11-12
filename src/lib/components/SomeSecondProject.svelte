@@ -75,18 +75,23 @@
 		>
 			<a
 				type="button"
-				href="/"
+				href="https://feavel-blog.vercel.app/"
+				target="blank"
 				class="bg-stone-500 text-white text-sm leading-6 font-medium font-mono py-2 px-3 rounded-md transition hover:bg-emerald-400 duration-300"
 				>See Blog | 进入哲学博客</a
 			>
 		</div>
 		<p
-			class="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400 font-thin italic indent-8"
+			class="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400 font-thin italic "
 		>
-			This sunny and spacious room is for those traveling light and looking for a comfy and cosy
-			place to lay their head for a night or two. This beach house sits in a vibrant neighborhood
-			littered with cafes, pubs, restaurants and supermarkets and is close to all the major
-			attractions such as Edinburgh Castle and Arthur's Seat.
+			哲学 + 💭思想 博客 用户欢迎您!
+			<br />这是一个用: Next.js + Chakra UI + Firebase 实现的博客.
+			<br />这里可以分享自己的哲学.
+			<br />1. 注册您的 👨‍🎤 账户,
+			<br />2. ✍️ 写下你的思想,
+			<br />3. 然后 💞 互相点赞对方写下的思想.
+			<br />所有的公开动态都是后端加载并搜索搜索引擎适配.
+			<br />国内的朋友们请使用梯子🪜
 		</p>
 	</div>
 </main>

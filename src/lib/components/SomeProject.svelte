@@ -77,7 +77,8 @@
 		>
 			<a
 				type="button"
-				href="/"
+				href="https://github.com/feavel1/feavel-homepage-v2"
+				target="blank"
 				class="bg-stone-500 text-white text-sm leading-6 font-mono font-medium py-2 px-3 rounded-md transition hover:bg-indigo-400 duration-200"
 				>Source Code \ 下载原码
 			</a>
