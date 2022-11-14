@@ -6,15 +6,15 @@
 <!-- svelte-ignore a11y-missing-attribute -->
 
 <div class="md:mt-24 mt-4 max-w-6xl px-4 flex flex-col content-center justify-center mx-auto">
-	<div class="grid grid-cols-2 place-content-center gap-3">
+	<div class="grid md:grid-cols-2 place-content-center gap-3">
 		<!-- CARD -->
-		<PhylosophyCard2 props="col-span-2">
-			<h5 class=" text-xl font-medium mb-2 text-gray-500">精神分析中的时间</h5>
+		<PhylosophyCard2 props="md:col-span-2">
+			<h5 class="text-xl font-medium mb-2 text-gray-500">精神分析中的时间</h5>
 			<h1 class="font-serif font-semibold text-center text-3xl ">Time in Psychoanalysis</h1>
 			<div
 				class="w-fit font-medium text-sm text-white my-2 uppercase tracking-wide bg-pink-600 px-2 rounded-lg"
 			>
-				Latest Updates
+				New
 			</div>
 			<p class="text-base mb-2">
 				The effect of differences in meaning, varies through out the system of differences,
