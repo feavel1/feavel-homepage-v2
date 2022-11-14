@@ -27,7 +27,10 @@
 				</c>
 			</p>
 			<p class="text-gray-400 text-xs">Last updated on November 14th</p>
-			<Button href="/" download="/">Download PDF</Button>
+			<Button
+				href="/src/public/pdf/Understanding of Time in Psychoanalysis.pdf"
+				download="Time in Psychoanalysis.pdf">Download PDF</Button
+			>
 		</PhylosophyCard2>
 
 		<!-- CARD2 -->
