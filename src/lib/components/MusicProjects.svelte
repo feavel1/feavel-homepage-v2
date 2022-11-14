@@ -24,7 +24,7 @@
 
 <main class="h-autotext-white mt-12 font-sans text-white ">
 	<div id="cards" class="text-xl">
-		<div class="card">
+		<a class="card" href="https://music.163.com/#/album?id=138250855" target="blank">
 			<div class="card-content">
 				<div class="card-image ">
 					<Icon data={heart} scale={5} class="bg-slate-900 rounded-lg p-4 opacity-50" />
@@ -39,8 +39,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="card">
+		</a>
+		<a class="card" href="https://music.163.com/#/album?id=92576490" target="blank">
 			<div class="card-content">
 				<div class="card-image">
 					<Icon data={handshakeO} scale={5} class="bg-slate-900 rounded-lg p-4  opacity-50" />
@@ -55,8 +55,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="card">
+		</a>
+		<a class="card" href="https://music.163.com/#/playlist?id=5085085377" target="blank">
 			<div class="card-content">
 				<div class="card-image ">
 					<Icon data={fileAudioO} scale={5} class="bg-slate-900 rounded-lg p-4 opacity-50" />
@@ -71,8 +71,12 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="card">
+		</a>
+		<a
+			class="card"
+			href="https://feavel.notion.site/Daniil-Production-Portfolio-Specialist-Project-0d2b2dc1ff1c4029a93955250433a44e"
+			target="blank"
+		>
 			<div class="card-content">
 				<div class="card-image">
 					<Icon data={tags} scale={5} class=" bg-slate-900 rounded-lg p-4 opacity-50" />
@@ -87,8 +91,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="card">
+		</a>
+		<a href="https://www.craft.do/s/87ydqNq3y0DIqI" target="blank" class="card">
 			<div class="card-content">
 				<div class="card-image">
 					<Icon data={book} scale={5} class="bg-slate-900 rounded-lg p-4 opacity-50" />
@@ -103,8 +107,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="card">
+		</a>
+		<a href="https://music.163.com/#/playlist?id=7569020906" target="blank" class="card">
 			<div class="card-content">
 				<div class="card-image">
 					<Icon
@@ -123,7 +127,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</a>
 	</div>
 </main>
 

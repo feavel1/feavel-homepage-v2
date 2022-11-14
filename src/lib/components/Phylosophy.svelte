@@ -26,7 +26,7 @@
 					institutions, which also change the perception of time and the moment of conclusion.
 				</c>
 			</p>
-			<p class="text-gray-600 text-xs">Last updated on November 12th</p>
+			<p class="text-gray-400 text-xs">Last updated on November 14th</p>
 			<Button href="/" download="/">Download PDF</Button>
 		</PhylosophyCard2>
 
@@ -48,7 +48,10 @@
 
 			<p class="text-gray-600 text-xs">Last updated on November 12th</p>
 			<div>
-				<Button href="/src/public/baby-feavel-home-1.gif" download="baby-feavel-home-1.gif">
+				<Button
+					href="/src/public/pdf/Daniil Fedorov - Production Portfolio - Reflective Critique.pdf"
+					download="Reflective Critique.pdf"
+				>
 					Download PDF
 				</Button>
 				<Button
