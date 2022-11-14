@@ -1,6 +1,7 @@
 <script>
 	import GearIcon from '../../public/svg/GearIcon.svelte';
 	import Typing from './Typing.svelte';
+	import img1 from '../../public/img/home-feavel-1.gif';
 </script>
 
 <main class="py-6 px-4 sm:p-6 md:py-10 md:px-8">
@@ -23,7 +24,7 @@
 			class="grid gap-4 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0"
 		>
 			<img
-				src="/src/public/home-feavel-1.gif"
+				src={img1}
 				alt=""
 				class="w-full h-60 object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full"
 				loading="lazy"
