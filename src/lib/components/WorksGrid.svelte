@@ -17,7 +17,7 @@
 <div class="max-w-6xl md:px-4 flex flex-col content-center justify-center mx-auto">
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:my-5 md:mx-4">
 		<!-- PSYCHOANALYSIS  -->
-		<a href="#philosophy-card" class="drop-shadow-2xl">
+		<a href="#philosophy-card">
 			<InView let:isVisible>
 				<GridCard props={isVisible ? 'text-red-400' : ''}>
 					<h1 class="md:text-3xl text-lg font-thin">Time in psychoanalysis</h1>
@@ -41,7 +41,7 @@
 		</a>
 
 		<!-- FCMA  -->
-		<a href="https://www.craft.do/s/3ThLjDJJ5vCFsF" target="blank" class="drop-shadow-2xl">
+		<a href="https://www.craft.do/s/3ThLjDJJ5vCFsF" target="blank">
 			<InView let:isVisible>
 				<GridCard props={isVisible ? 'text-sky-500' : ''}>
 					<h1 class="md:text-3xl text-lg font-thin">FCMA</h1>
@@ -63,7 +63,7 @@
 		</a>
 
 		<!-- MUSIC  -->
-		<a href="#music-card" class="drop-shadow-2xl">
+		<a href="#music-card">
 			<InView let:isVisible>
 				<GridCard props={isVisible ? 'text-violet-400' : ''}>
 					<h1 class="md:text-3xl text-lg font-thin">Music Production and Mixing</h1>
@@ -87,7 +87,7 @@
 		</a>
 
 		<!-- CODING -->
-		<a href="#programing-card" class="drop-shadow-2xl">
+		<a href="#programing-card">
 			<InView let:isVisible>
 				<GridCard props="transition {isVisible ? 'text-emerald-400' : ''} duration-500">
 					<h1 class="md:text-3xl text-lg font-thin">Web Design and Programing</h1>
@@ -111,7 +111,7 @@
 		</a>
 
 		<!-- CONTACT -->
-		<a href="#contact-card" class="drop-shadow-2xl">
+		<a href="#contact-card">
 			<InView let:isVisible>
 				<GridCard props="transition {isVisible ? 'text-amber-400' : ''} duration-500">
 					<h1 class="md:text-3xl text-lg font-thin">Good Friend</h1>
@@ -135,7 +135,7 @@
 		</a>
 
 		<!-- ABOUT -->
-		<a href="#contact-card" class="drop-shadow-2xl">
+		<a href="#contact-card">
 			<InView let:isVisible>
 				<GridCard props="transition {isVisible ? 'text-pink-400' : ''} duration-500">
 					<h1 class="md:text-3xl text-lg font-thin">Freelance</h1>

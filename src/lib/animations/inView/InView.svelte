@@ -2,11 +2,11 @@
 	import { onMount } from 'svelte';
 	let isVisible = false;
 	let element;
-	const handleIntersect = (e) => {
-		isVisible = e[0].isIntersecting;
-	};
 
 	onMount(() => {
+		const handleIntersect = (e) => {
+			isVisible = e[0].isIntersecting;
+		};
 		const root = null;
 		const rootMargin = `100px 0px -100px 0px`;
 		const options = { root, rootMargin };
