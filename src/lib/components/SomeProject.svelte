@@ -2,6 +2,8 @@
 	import GearIcon from '../../public/svg/GearIcon.svelte';
 	import Typing from './Typing.svelte';
 	import img1 from '../../public/img/home-feavel-1.gif';
+	import img2 from '../../public/img/home-feavel-2.png';
+	import img3 from '../../public/img/home-feavel-3.png';
 </script>
 
 <main class="py-6 px-4 sm:p-6 md:py-10 md:px-8">
@@ -30,13 +32,13 @@
 				loading="lazy"
 			/>
 			<img
-				src="/src/public/home-feavel-2.png"
+				src={img2}
 				alt=""
 				class="hidden w-full h-52 object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2 lg:h-32"
 				loading="lazy"
 			/>
 			<img
-				src="/src/public/home-feavel-3.png"
+				src={img3}
 				alt=""
 				class="hidden w-full h-52 object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32"
 				loading="lazy"

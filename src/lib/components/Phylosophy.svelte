@@ -1,9 +1,9 @@
 <script>
 	import Button from './button/Button.svelte';
 	import PhylosophyCard2 from './card/PhylosophyCard2.svelte';
+	import time1 from '../../public/pdf/Understanding of Time in Psychoanalysis.pdf';
+	import media from '../../public/pdf/Daniil Fedorov - Production Portfolio - Reflective Critique.pdf';
 </script>
-
-<!-- svelte-ignore a11y-missing-attribute -->
 
 <div class="md:mt-24 mt-4 max-w-6xl px-4 flex flex-col content-center justify-center mx-auto">
 	<div class="grid md:grid-cols-2 place-content-center gap-3">
@@ -27,10 +27,7 @@
 				</c>
 			</p>
 			<p class="text-gray-400 text-xs">Last updated on November 14th</p>
-			<Button
-				href="/src/public/pdf/Understanding of Time in Psychoanalysis.pdf"
-				download="Time in Psychoanalysis.pdf">Download PDF</Button
-			>
+			<Button href={time1} download="Time in Psychoanalysis.pdf">Download PDF</Button>
 		</PhylosophyCard2>
 
 		<!-- CARD2 -->
@@ -44,19 +41,14 @@
 			</div>
 			<p class="text-base mb-2">
 				This essay talks about how music works in
-				<a class="underline decoration-sky-500">media and advertisements</a>
+				<c class="underline decoration-sky-500">media and advertisements</c>
 				Showcasing examples of music that is played across multiple continents and how people from different
 				regions understand music in media differently.
 			</p>
 
 			<p class="text-gray-600 text-xs">Last updated on November 12th</p>
 			<div>
-				<Button
-					href="/src/public/pdf/Daniil Fedorov - Production Portfolio - Reflective Critique.pdf"
-					download="Reflective Critique.pdf"
-				>
-					Download PDF
-				</Button>
+				<Button href={media} download="Reflective Critique.pdf">Download PDF</Button>
 				<Button
 					href="https://feavel.notion.site/Music-in-Multimedia-Research-9c2cd5dd49b94adb9b93004f7739c449"
 					target="_blank"
@@ -77,7 +69,7 @@
 			</div>
 			<p class="text-base mb-2">
 				This work talks about the ontology and epistimology of the music.
-				<a class="underline decoration-sky-500">How people react to different sorts of music</a>
+				<c class="underline decoration-sky-500">How people react to different sorts of music</c>
 				Showcasing examples of music that is played across multiple continents and how people from different
 				regions understand music in media differently.
 			</p>
