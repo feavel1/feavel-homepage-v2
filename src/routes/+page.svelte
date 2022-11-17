@@ -53,12 +53,6 @@
 		<MusicProjects />
 	</Section>
 
-	<!-- <Section color="dark:bg-neutral-600">
-		影视作品
-		<p class="italic text-lg">Film making🎥</p>
-		<VideoProjects />
-	</Section> -->
-
 	<Section SectionId="contact-card" color="dark:bg-slae-700 flex flex-col justify-between">
 		<div>
 			<div class="text-right my-5">

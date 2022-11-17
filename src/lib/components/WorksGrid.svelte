@@ -89,7 +89,7 @@
 		<!-- CODING -->
 		<a href="#programing-card">
 			<InView let:isVisible>
-				<GridCard props="transition {isVisible ? 'text-emerald-400' : ''} duration-500">
+				<GridCard props={isVisible ? 'text-emerald-400' : ''}>
 					<h1 class="md:text-3xl text-lg font-thin">Web Design and Programing</h1>
 					<div class="">
 						{#if isVisible}
@@ -113,7 +113,7 @@
 		<!-- CONTACT -->
 		<a href="#contact-card">
 			<InView let:isVisible>
-				<GridCard props="transition {isVisible ? 'text-amber-400' : ''} duration-500">
+				<GridCard props={isVisible ? 'text-amber-400' : ''}>
 					<h1 class="md:text-3xl text-lg font-thin">Good Friend</h1>
 					<div class="">
 						{#if isVisible}
@@ -137,7 +137,7 @@
 		<!-- ABOUT -->
 		<a href="#contact-card">
 			<InView let:isVisible>
-				<GridCard props="transition {isVisible ? 'text-pink-400' : ''} duration-500">
+				<GridCard props={isVisible ? 'text-pink-400' : ''}>
 					<h1 class="md:text-3xl text-lg font-thin">Freelance</h1>
 
 					<div class="">

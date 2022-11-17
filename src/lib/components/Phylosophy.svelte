@@ -6,7 +6,7 @@
 </script>
 
 <div class="md:mt-24 mt-4 max-w-6xl px-4 flex flex-col content-center justify-center mx-auto">
-	<div class="grid md:grid-cols-2 place-content-center gap-3">
+	<div class="grid md:grid-cols-2 place-content-center gap-3 text-white">
 		<!-- CARD -->
 		<PhylosophyCard2 props="md:col-span-2">
 			<h5 class="text-xl font-medium mb-2 text-gray-500">精神分析中的时间</h5>
