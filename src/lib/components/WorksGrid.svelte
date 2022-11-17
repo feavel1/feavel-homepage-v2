@@ -19,7 +19,7 @@
 		<!-- PSYCHOANALYSIS  -->
 		<a href="#philosophy-card" class="drop-shadow-2xl">
 			<InView let:isVisible>
-				<GridCard props="transition-colors {isVisible ? 'text-red-400' : ''} duration-500">
+				<GridCard props={isVisible ? 'text-red-400' : ''}>
 					<h1 class="md:text-3xl text-lg font-thin">Time in psychoanalysis</h1>
 					<div class="">
 						{#if isVisible}
@@ -43,7 +43,7 @@
 		<!-- FCMA  -->
 		<a href="https://www.craft.do/s/3ThLjDJJ5vCFsF" target="blank" class="drop-shadow-2xl">
 			<InView let:isVisible>
-				<GridCard props="transition {isVisible ? 'text-sky-500' : ''} duration-500">
+				<GridCard props={isVisible ? 'text-sky-500' : ''}>
 					<h1 class="md:text-3xl text-lg font-thin">FCMA</h1>
 					<div class="">
 						{#if isVisible}
@@ -65,7 +65,7 @@
 		<!-- MUSIC  -->
 		<a href="#music-card" class="drop-shadow-2xl">
 			<InView let:isVisible>
-				<GridCard props="transition {isVisible ? 'text-violet-400' : ''} duration-500">
+				<GridCard props={isVisible ? 'text-violet-400' : ''}>
 					<h1 class="md:text-3xl text-lg font-thin">Music Production and Mixing</h1>
 					<div class="">
 						{#if isVisible}
