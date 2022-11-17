@@ -14,8 +14,8 @@
 	};
 </script>
 
-<div class="max-w-6xl px-4 flex flex-col content-center justify-center mx-auto">
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-3 my-5 md:mx-4">
+<div class="max-w-6xl md:px-4 flex flex-col content-center justify-center mx-auto">
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:my-5 md:mx-4">
 		<!-- PSYCHOANALYSIS  -->
 		<a href="#philosophy-card" class="drop-shadow-2xl">
 			<InView let:isVisible>

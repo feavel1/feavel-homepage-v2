@@ -27,11 +27,11 @@
 				</c>
 			</p>
 			<p class="text-gray-400 text-xs">Last updated on November 14th</p>
-			<Button href={time1} download="Time in Psychoanalysis.pdf">Download PDF</Button>
+			<Button href={time1} download="Time in Psychoanalysis.pdf" target="/">Download PDF</Button>
 		</PhylosophyCard2>
 
 		<!-- CARD2 -->
-		<PhylosophyCard2>
+		<PhylosophyCard2 props="">
 			<h5 class=" text-xl font-medium mb-2 text-gray-500">多媒体和广告音乐</h5>
 			<h1 class="font-serif font-semibold text-center text-3xl ">Music in Multimedia</h1>
 			<div
@@ -48,10 +48,11 @@
 
 			<p class="text-gray-600 text-xs">Last updated on November 12th</p>
 			<div>
-				<Button href={media} download="Reflective Critique.pdf">Download PDF</Button>
+				<Button href={media} download="Reflective Critique.pdf" target="/">Download PDF</Button>
 				<Button
 					href="https://feavel.notion.site/Music-in-Multimedia-Research-9c2cd5dd49b94adb9b93004f7739c449"
 					target="_blank"
+					download=""
 				>
 					Read Citations
 				</Button>
@@ -59,7 +60,7 @@
 		</PhylosophyCard2>
 
 		<!-- CARD3s -->
-		<PhylosophyCard2>
+		<PhylosophyCard2 props="">
 			<h5 class=" text-xl font-medium mb-2 text-gray-500">音乐中的哲学</h5>
 			<h1 class="font-serif font-semibold text-center text-3xl ">Music Philosophy</h1>
 			<div
