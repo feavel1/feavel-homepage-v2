@@ -1,6 +1,6 @@
 <script>
 	import { fly } from 'svelte/transition';
-	import { onMount } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
 	const lines = ['∲欢迎来到∲', 'BABY FEAVEL', '的', '新', '主页', '🆕'];
 	let ready = false;
 	onMount(() => (ready = true));

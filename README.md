@@ -20,20 +20,20 @@ npm run dev
 
 ## Project structure 结构
 
-------------------------
+---
 
-``` bash
+```bash
 $PROJECT_ROOT
 │   # Config files
 ├── src
 │   # html file
-│    │  
+│    │
 │    ├──routes
 |    │  # svelte pages
-│    │  
+│    │
 │    ├──lib
 |    │  # components and animation files
-│    │  
+│    │
 │    ├──public
 |    │  # images and svg files
 └── static # icon
